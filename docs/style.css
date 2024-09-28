@@ -1,0 +1,63 @@
+/* This is where custom CSS will go */
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    height: 100%;
+  }
+
+#footer-section {
+    /* For future footer */
+    bottom: 0;
+    width: 100%;
+  }
+
+.footercontent {
+    width: 100%;
+}
+
+.navbar{
+    transition-duration: .5s;
+    }
+  
+.scroll-top .navbar{  
+    transition-duration: .5s;
+  }
+  
+.nav-item{
+    /* invisible border so nav links don't jostle when border appears */
+    box-sizing:border-box;
+    border: 2px solid;
+    border-radius: 25%;
+  }
+
+.card{
+    height: 100%;
+    min-width: 84px;
+  }
+
+.gofundmobile{
+    max-height: 100px;
+}
+
+@media (hover: hover){
+    .nav-item:hover{
+    /* border appears on nav links on hover to make it extra obvious they're clickable */
+      border: 2px solid whitesmoke;
+      border-radius: 25%;
+    }
+  
+    /* No hover effects so they don't get stuck on tap w/touchscreen */
+    .link-card:hover{
+      background-color: rgba(46, 46, 46, 1);
+      color: whitesmoke;
+    }
+  
+    /* Colored in home icon on hover */
+    .navbar-brand:hover .bi-house:before {
+      content: "\F424";
+    }
+
+  }
