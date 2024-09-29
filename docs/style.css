@@ -44,6 +44,11 @@ body{
     max-height: 100px;
 }
 
+.link-card:link {
+  /* Removes underline from the link text in the link card */
+  text-decoration: none;
+}
+
 @media (hover: hover){
     .nav-item:hover{
     /* border appears on nav links on hover to make it extra obvious they're clickable */
@@ -58,8 +63,8 @@ body{
     }
   
     /* Colored in home icon on hover */
-    .navbar-brand:hover .bi-house:before {
-      content: "\F424";
+    .navbar-brand:hover .bi-suit-heart:before {
+      content: "\F59D";
     }
 
   }
