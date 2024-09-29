@@ -15,8 +15,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <div id="pagewidth">
+<body class="container-fluid mx-0 px-0 min-vh-100">
+    <div id="pagewidth" class="vh-100 d-flex flex-column">
 
         <!--================-->
         <!--===HEADER/NAV===-->
@@ -31,13 +31,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="events.html">Events</a>
@@ -53,9 +53,9 @@
         <!--=====CONTENT=====-->
         <!--=================-->
 
-        <section id="contactUs" class="row contact">
+        <section id="contactUs" class="container contact flex-fill my-4">
             <div class="center">
-                <div class="initialspace" style="padding-bottom: 100px">
+                <div class="initialspace">
                     <h1>Contact Us</h1>
                     <!--<strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>-->
                     <div class="columns">
@@ -80,7 +80,7 @@
                         <div class="half">
                             <address class="contact-details">
                                 <h3>
-                                    <img class="img-responsive" src="/web/20230329130722im_/http://www.vapolyamory.com/img/vastate.png" alt="">
+                                    <img class="img-responsive" src="assets/vastate.png" alt="">
                                 </h3>
                                 <p>
                                     <i class="fa fa-globe"></i>
@@ -89,7 +89,7 @@
                                 </p>
                                 <p>
                                     <i class="fa fa-envelope"></i>
-                                    <a href="https://web.archive.org/web/20230329130722/mailto:vapolyamory@gmail.com?Subject=Website%20Contact" target="_top">vapolyamory@gmail.com</a>
+                                    <a href="mailto:vapolyamory@gmail.com?Subject=Website%20Contact" target="_top">vapolyamory@gmail.com</a>
                                 </p>
                             </address>
                         </div>

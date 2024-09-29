@@ -4,13 +4,15 @@ html {
     width: 100%;
   }
   
-  body{
-    height: 100%;
-  }
+body{
+    min-height: 100vh;
+}
+
+#pagewidth {
+  min-height: 100vh;
+}
 
 #footer-section {
-    /* For future footer */
-    bottom: 0;
     width: 100%;
   }
 
