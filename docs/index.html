@@ -4,15 +4,15 @@
 <head>
     <title>Home | VA Polyamory</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/web/20230329130710cs_/http://www.vapolyamory.com/css/navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/web/20230329130710cs_/http://www.vapolyamory.com/css/default.css" media="all">
-    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20230329130710cs_/http://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20230329130722cs_/http://fonts.googleapis.com/css?family=PT+Sans">
 
-    <script src="/web/20230329130710js_/http://www.vapolyamory.com/js/jquery-1.7.2.min.js"></script>
-    <script src="/web/20230329130710js_/http://www.vapolyamory.com/js/default.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -21,57 +21,38 @@
         <!--================-->
         <!--===HEADER/NAV===-->
         <!--================-->
-        <header id="header">
-            <div class="center">
-                <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-                    <div class="container">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header page-scroll">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-logo page-scroll" href="#pagewidth">
-                                <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/logos/white/VAPolyamory_withName.png" class="img-responsive" alt="">
-                            </a>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="hidden active">
-                                    <a href="#page-top"></a>
-                                </li>
-                                <li class="active">
-                                    <a class="page-scroll" href="#pagewidth">Home</a>
-                                </li>
-                                <li class="">
-                                    <a class="page-scroll" href="about.html">About Us</a>
-                                </li>
-                                <li class="">
-                                    <a class="page-scroll" href="events.html">Events</a>
-                                </li>
-                                <!--<li class="">
-                                                          <a class="page-scroll" href="#team">Team</a>
-                                                      </li>-->
-                                <li class="">
-                                    <a class="page-scroll" href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.navbar-collapse -->
-                    </div>
-                    <!-- /.container-fluid -->
-                </nav>
+        <nav class="navbar navbar-expand-md bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#top"><i class="bi bi-suit-heart h3"> VA Polyamory</i>
+          </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                  </li>
+                  
+                </ul>
+              </div>
             </div>
-        </header>
+        </nav>
 
         <!--=================-->
         <!--=====CONTENT=====-->
         <!--=================-->
 
-        <section class="home">
+        <section class="home container my-4">
             <!--HEADER-->
             <div class="row">
                 <div class="center">
@@ -110,24 +91,8 @@
                 <div class="center">
                     <div class="contentspace">
                         <h1>Articles in the Spotlight</h1>
-                        <div class="columns">
-                            <article class="news oneThird">
-                                <div>
-                                    <h3>Life Gets Difficult</h3>
-                                    <div class="content">
-                                        <a href="article-cancer.html" class="imgHolder fullWidth">
-                                            <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/articles-news/cancer.jpg" alt="">
-                                        </a>
-                                        <p class="tab">A difficult diagnosis makes a family reevaluate their perspective and reflect on polyamory's influence in their lives.</p>
-                                    </div>
-                                    <div class="readMore">
-                                        <a href="article-cancer.html" class="articlebtn">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="news oneThird">
+                        <div class="row">
+                            <article class="col-12 col-md-6 d-flex my-2 mx-auto">
                                 <div>
                                     <h3>Rethinking Monogamy</h3>
                                     <div class="content">
@@ -144,7 +109,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="news oneThird">
+                            <article class="col-12 col-md-6 d-flex my-2">
                                 <div>
                                     <h3>Not So Different</h3>
                                     <div class="content">
@@ -172,9 +137,9 @@
                         <h1>Spread the Love!</h1>
                         <div class="columns">
                             <div class="oneForth">
-                                <div class="roundimgHolder img-responsive gofundmobile" style="margin-right: 25px;">
-                                    <a href="https://web.archive.org/web/20230329130710/https://www.gofundme.com/VApolyamory" target="_blank">
-                                        <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/gofundme.png" alt="">
+                                <div>
+                                    <a href="https://www.gofundme.com/f/vapolyamory" target="_blank">
+                                        <img src="assets/gofundme.png" alt="gofundme logo" class="gofundmobile img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -182,7 +147,7 @@
                                 <p class="tab">Virginia Polyamory is 100% volunteer run and supported. All proceeds collected go right back into the organization.</p>
                                 <p class="tab">
                                     We produce and attend events for outreach to improve public relations and spread education about polyamory. If you have found resources, help, and community here that was helpful and positive, we hope you can give something back. Every dollar counts and keeps us going! Click 
-                                    <a href="https://web.archive.org/web/20230329130710/https://www.gofundme.com/VApolyamory" target="_blank">here</a>
+                                    <a href="https://www.gofundme.com/VApolyamory" target="_blank">here</a>
                                      to donate.
                                 </p>
                                 <p>Listed below are a few of the things funds are used for :</p>
@@ -233,12 +198,12 @@
 
             <div id="twoColumnLayout" class="row">
                 <div class="center">
-                    <div class="contentspace" style="padding-bottom: 100px">
+                    <div class="contentspace" class="pb-4">
                         <h1>More Resources</h1>
                         <div class="columns">
                             <div class="twoThird">
                                 <div class="imgHolder imgSM alignLeft">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/resources.jpg" alt="">
+                                    <img src="assets/resources.jpg" alt="">
                                 </div>
                                 <p class="tab">
                                     It can be very difficult to find resources on healthy polyamory, so we've compiled some of our top suggestions here. 
@@ -250,39 +215,39 @@
                                 <p class="intro">Information, Communities, Health Services, and More</p>
                                 <ul>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/https://poly.land/" target="_blank">Poly.Land</a>
+                                        <a href="https://poly.land/" target="_blank">Poly.Land</a>
                                         <br/>
                                         <span style="padding-left: 30px">An ever-expanding resource for terms, tips, articles, and more, all about ethical nonmonogamy.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/http://kimchicuddles.com/" target="_blank">Kimchi Cuddles</a>
+                                        <a href="http://kimchicuddles.com/" target="_blank">Kimchi Cuddles</a>
                                         <br/>
                                         <span style="padding-left: 30px">A comic artist with an excellent talent for educating about polyamory through her art.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/https://solopoly.net/popular-posts/" target="_blank">Solo Poly</a>
+                                        <a href="https://solopoly.net/popular-posts/" target="_blank">Solo Poly</a>
                                         <br/>
                                         <span style="padding-left: 30px">A blog from the perspective of being poly without having, or necessarily wanting, a primary/nesting-style relationship.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/https://www.reddit.com/r/polyamory/" target="_blank">Poly Subreddit</a>
+                                        <a href="https://www.reddit.com/r/polyamory/" target="_blank">Poly Subreddit</a>
                                         <br/>
                                         <span style="padding-left: 30px">An open public forum where you can ask questions, read other's experiences, and find further resources about polyamory.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/https://www.ncsfreedom.org/resources/kink-aware-professionals-directory/kap-directory-homepage" target="_blank">National Coalition for Sexual Freedom (NCSF)</a>
+                                        <a href="https://www.ncsfreedom.org/resources/kink-aware-professionals-directory/kap-directory-homepage" target="_blank">National Coalition for Sexual Freedom (NCSF)</a>
                                         <br/>
                                         <span style="padding-left: 30px">A fantastic resource for anyone seeking psychotherapeutic, medical, and legal professionals who are informed about and open to alternative lifestyles.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/http://www.vdh.virginia.gov/richmond-city/clinical-services/" target="_blank">Richmond Health Department</a>
+                                        <a href="http://www.vdh.virginia.gov/richmond-city/clinical-services/" target="_blank">Richmond Health Department</a>
                                          (local)
                                                           
                                         <br/>
                                         <span style="padding-left: 30px">Richmond provides a number of clinical services available to the insured, uninsured and underinsured residents, as well as the general public.</span>
                                     </li>
                                     <li>
-                                        <a href="https://web.archive.org/web/20230329130710/http://www.fanfreeclinic.org/" target="_blank">Health Brigade</a>
+                                        <a href="http://www.fanfreeclinic.org/" target="_blank">Health Brigade</a>
                                          (local)
                                                           
                                         <br/>
@@ -291,8 +256,8 @@
                                 </ul>
                             </div>
                             <div class="oneThird">
-                                <div class="imgHolder fullWidth">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/resources2.jpg" alt="">
+                                <div class="imgHolder text-center">
+                                    <img src="assets/resources2.jpg" alt="a stack of books" class="rounded w-50">
                                 </div>
                                 <p class="intro">Suggested Books</p>
                                 <ul>
@@ -327,57 +292,51 @@
         <!--=====FOOTER=====-->
         <!--================-->
 
-        <footer id="footer">
+        <footer id="footer-section" class="bg-dark border-bottom border-body text-white text-center mt-0 p-2 d-flex align-items-center justify-content-center mb-0">
             <div class="footercontent">
-                <div class="columns">
-                    <div class="oneThird">
-                        <h3>
-                            <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/logos/white/VAPolyamory_withName.png" alt="">
-                        </h3>
-                    </div>
-                    <div class="oneThird">
-                        <div class="ccdata">
-                            <div class="center tribute">
+                <div>
+                    <div>
+                        <div class="ccdata small">
+                            <div>
                                 <a href="#pagewidth">Virginia Polyamory</a>
 
                                               &copy;
                                               
                                 <br/>
                                 <span class="copy">
-                                    Layout template by 
-                                    <a target="_blank" href="https://web.archive.org/web/20230329130710/http://webcodebuilder.com/">WebCodeBuilder</a>
-                                     from 
-                                    <a target="_blank" href="https://web.archive.org/web/20230329130710/http://all-free-download.com/free-website-templates/">Free Website Templates</a>
-                                    .
-                                    <br/>
-                                     Site redesigned by 
-                                    <a target="_blank" href="https://web.archive.org/web/20230329130710/http://www.invariantrva.com/">Invariant</a>
-                                    .
+                                     Site designed by 
+                                    <a target="_blank" href="https://www.linkedin.com/in/rileyfanus/">Riley Fanus</a>
+                                    and <a target="_blank" href="https://github.com/castle-samj">Sam Castle</a>.
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="oneThird">
-                        <h3>Connect with Us!</h3>
-                        <h3>
-                            <div id="footer_social">
-                                <a target="_blank" href="https://web.archive.org/web/20230329130710/https://www.facebook.com/VAPolyamory/">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/icons/roundfacebook.png" alt="">
-                                </a>
-                                <a target="_blank" href="https://web.archive.org/web/20230329130710/https://twitter.com/VApolyamory">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/icons/roundtwitterbird.png" alt="">
-                                </a>
-                                <a target="_blank" href="https://web.archive.org/web/20230329130710/https://www.instagram.com/vapolyamory/">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/icons/roundinstagram.png" alt="">
-                                </a>
+                    <div>
+                        <h6>Connect with Us!</h6>
+                        <h6>
+                            <div id="footer_social" class="row align-items-center">
+                                <div class="col-4 justify-content-center">
+                                    <a class="card link-card small p-1" href="https://www.facebook.com/VAPolyamory/" target="_blank"><i class="bi bi-facebook fs-3"></i> Facebook</i>
+                                    </a>
+                                </div>
+                                <div class="col-4 justify-content-center">
+                                    <a class="card link-card small p-1" href="https://www.instagram.com/vapolyamory/" target="_blank"><i class="bi bi-instagram fs-3"></i> Instagram</i>
+                                    </a>
+                                </div>
+                                <div class="col-4 justify-content-center">
+                                    <a class="card link-card small p-1" href="https://x.com/VApolyamory" target="_blank"><i class="bi bi-twitter-x fs-3"></i> Twitter/X</i>
+                                    </a>
+                                </div>
                             </div>
-                        </h3>
+                        </h6>
                     </div>
                 </div>
             </div>
         </footer>
 
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
