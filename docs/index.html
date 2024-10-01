@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://kit.fontawesome.com/6d89ebdc96.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -61,7 +63,7 @@
                             <h1>Virginia Polyamory</h1>
                             <strong class="subHeading">Committed to supporting the ethically non-monogamous by providing opportunities for learning and outreach.</strong>
                             <h1>
-                                <img class="headerimg" src="/web/20230329130710im_/http://www.vapolyamory.com/img/logos/black/VAPolyamory_Opt02_250x250.png" alt="">
+                                <img class="headerimg" src="assets/VAPolyamory_Opt02_250x250.png" alt="">
                             </h1>
                         </div>
                     </div>
@@ -79,7 +81,7 @@
                             </div>
                             <div class="half">
                                 <div class="imgHolder fullWidth">
-                                    <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/articles-news/brewery.jpg" alt="">
+                                    <img src="assets/brewery.jpg" alt="" class="img-fluid rounded">
                                 </div>
                             </div>
                         </div>
@@ -93,34 +95,34 @@
                         <h1>Articles in the Spotlight</h1>
                         <div class="row">
                             <article class="col-12 col-md-6 d-flex my-2 mx-auto">
-                                <div>
+                                <div class="card p-2">
                                     <h3>Rethinking Monogamy</h3>
                                     <div class="content">
-                                        <a href="https://web.archive.org/web/20230329130710/http://splinternews.com/even-christians-are-rethinking-monogamy-1798358003" target="_blank" class="imgHolder fullWidth">
-                                            <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/articles-news/religion.jpg" alt="">
+                                        <a href="http://splinternews.com/even-christians-are-rethinking-monogamy-1798358003" target="_blank" class="imgHolder fullWidth">
+                                            <img src="assets/religion.jpg" alt="" class="rounded w-75 mx-auto d-block">
                                         </a>
-                                        <p class="tab">Is it possible to be Christian and polyamorous? Many would argue no, but this article looks deeper to offer a fresh perspective.</p>
+                                        <p class="tab px-3 pt-2">Is it possible to be Christian and polyamorous? Many would argue no, but this article looks deeper to offer a fresh perspective.</p>
                                     </div>
                                     <p class="note alignRight" style="padding-right: 10px">*External link</p>
                                     <div class="readMore">
-                                        <a href="https://web.archive.org/web/20230329130710/http://splinternews.com/even-christians-are-rethinking-monogamy-1798358003" target="_blank" class="articlebtn">
+                                        <a href="http://splinternews.com/even-christians-are-rethinking-monogamy-1798358003" target="_blank" class="articlebtn">
                                             <span>Read More</span>
                                         </a>
                                     </div>
                                 </div>
                             </article>
                             <article class="col-12 col-md-6 d-flex my-2">
-                                <div>
+                                <div class="card p-2">
                                     <h3>Not So Different</h3>
                                     <div class="content">
-                                        <a href="https://web.archive.org/web/20230329130710/https://www.thestar.com/life/2016/11/17/polyamory-looks-a-lot-like-ordinary-family-life-modern-family.html" target="_blank" class="imgHolder fullWidth">
-                                            <img src="/web/20230329130710im_/http://www.vapolyamory.com/img/articles-news/pizza.jpg" alt="">
+                                        <a href="https://www.thestar.com/life/2016/11/17/polyamory-looks-a-lot-like-ordinary-family-life-modern-family.html" target="_blank" class="imgHolder fullWidth">
+                                            <img src="assets/pizza.jpg" alt="" class="rounded w-75 mx-auto d-block">
                                         </a>
-                                        <p class="tab">Explanations often turn into conversations of monogamy vs. polyamory, but this article looks at how they have a lot more in common than some might think.</p>
+                                        <p class="tab px-3 pt-2">Explanations often turn into conversations of monogamy vs. polyamory, but this article looks at how they have a lot more in common than some might think.</p>
                                     </div>
                                     <p class="note alignRight" style="padding-right: 10px">*External link</p>
                                     <div class="readMore">
-                                        <a href="https://web.archive.org/web/20230329130710/https://www.thestar.com/life/2016/11/17/polyamory-looks-a-lot-like-ordinary-family-life-modern-family.html" target="_blank" class="articlebtn">
+                                        <a href="https://www.thestar.com/life/2016/11/17/polyamory-looks-a-lot-like-ordinary-family-life-modern-family.html" target="_blank" class="articlebtn">
                                             <span>Read More</span>
                                         </a>
                                     </div>
@@ -202,8 +204,8 @@
                         <h1>More Resources</h1>
                         <div class="columns">
                             <div class="twoThird">
-                                <div class="imgHolder imgSM alignLeft">
-                                    <img src="assets/resources.jpg" alt="">
+                                <div>
+                                    <img src="assets/resources.jpg" alt="" class="img-fluid">
                                 </div>
                                 <p class="tab">
                                     It can be very difficult to find resources on healthy polyamory, so we've compiled some of our top suggestions here. 
@@ -255,31 +257,33 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="oneThird">
-                                <div class="imgHolder text-center">
-                                    <img src="assets/resources2.jpg" alt="a stack of books" class="rounded w-50">
+                            <div class="card mx-auto w-50">
+                                <img src="assets/resources2.jpg" class="card-img-top" alt="a stack of books">
+                                <div class="card-body">
+                                  <h5 class="card-title">Suggested Books</h5>
+                                  <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            More Than Two
+                                                             
+                                            <br>
+                                            by Franklin Veaux and Eve Rickert
+                                        </li>
+                                        <li class="list-group-item">
+                                            The Ethical Slut
+                                                              
+                                            <br/>
+                                            by Janet W. Hardy
+                                        </li>
+                                        <li class="list-group-item">
+                                            Sex at Dawn
+                                                              
+                                            <br/>
+                                            by Christopher Ryan and Cacilda Jethá
+                                        </li>
+                                    </ul>
+                                  </p>
                                 </div>
-                                <p class="intro">Suggested Books</p>
-                                <ul>
-                                    <li>
-                                        More Than Two
-                                                          
-                                        <br/>
-                                        <span style="padding-left: 30px"> by Franklin Veaux and Eve Rickert</span>
-                                    </li>
-                                    <li>
-                                        The Ethical Slut
-                                                          
-                                        <br/>
-                                        <span style="padding-left: 30px"> by Janet W. Hardy</span>
-                                    </li>
-                                    <li>
-                                        Sex at Dawn
-                                                          
-                                        <br/>
-                                        <span style="padding-left: 30px">  Christopher Ryan and Cacilda Jethá</span>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>

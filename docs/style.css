@@ -10,6 +10,7 @@ body{
 
 #pagewidth {
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #footer-section {
@@ -47,6 +48,29 @@ body{
 .link-card:link {
   /* Removes underline from the link text in the link card */
   text-decoration: none;
+}
+
+#testiomonialsTab{
+  background-color: #333;
+  color: whitesmoke;
+}
+
+.carousel-inner{
+  height: 200px;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+.carousel-caption p{
+  margin-bottom: 0px;
+  overflow-y: auto;
+  max-height: 165px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
 }
 
 @media (hover: hover){
