@@ -90,6 +90,10 @@ body{
   filter: invert(1);
 }
 
+iframe {
+  filter: invert(.9) saturate(0.5) hue-rotate(145deg);
+}
+
 .body-section {
   background-color: rgba(0,0,0,.7);
   color: whitesmoke;
