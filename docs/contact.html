@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/6d89ebdc96.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-fluid mx-0 px-0 min-vh-100">
+<body class="container-fluid mx-0 px-0">
     <div id="pagewidth" class="d-flex flex-column contact">
 
         <!--================-->
@@ -55,85 +55,58 @@
         <!--=====CONTENT=====-->
         <!--=================-->
 
-        <section id="contactUs" class="container body-section my-0 py-5 px-4" data-bs-theme="dark">
-            <div class="center">
-                <div class="initialspace row">
-                    
-                    <!--<strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>-->
-                    <form action="https://api.web3forms.com/submit" method="POST" class="card p-5">
-                        <h1 class="mb-5">Contact Us</h1>
-                        <!-- Replace with your Access Key -->
-                        <input type="hidden" name="access_key" value="e896db8e-edf4-4b41-8074-b938c530f74f">
-                    
-                        <!-- Form Inputs. Each input must have a name="" attribute -->
-                        <input type="text" name="name" placeholder="Your Name..."  class="row my-2" required>
-                        <input type="email" name="email" placeholder="Your Email..." class="row my-2"  required>
-                        <div class="input-field row">
-                            <textarea name="message" placeholder="Message..." class="form-control my-2"  required></textarea>
-                        </div>
-                        
-                    
-                        <!-- Honeypot Spam Protection -->
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    
-                        <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-                    
-                        <button type="submit" id="submit" class="row sendbtn btn btn-primary my-2">
-                            Send 
-                            <i class="fa fa-paper-plane fa-lg"></i>
-                        </button>
-                    
-                    </form>
-                    <!--
-                    <div class="columns">
-                        <div class="half contact-form">
-                            <form action="send_form_email.php" method="post">
-                                <div class="input-field">
-                                    <input type="text" id="author" name="name" class="form-control my-2" placeholder="Your Name...">
-                                </div>
-                                <div class="input-field">
-                                    <input type="email" id="email" name="email" class="form-control my-2" placeholder="Your Email...">
-                                </div>
-                                <div class="input-field">
-                                    <textarea id="text" name="message" class="form-control my-2" placeholder="Message..."></textarea>
-                                </div>
-                                <button type="submit" id="submit" class="sendbtn btn btn-primary my-2">
-                                    Send 
-                                    <i class="fa fa-paper-plane fa-lg"></i>
-                                </button>
-                            </form>
-                        </div>
-                        -->
-                        
-                        <div class="half">
-                            <address class="contact-details">
-                                <h3>
-                                    <img class="img-fluid" src="assets/vastate.png" alt="">
-                                </h3>
-                                <p>
-                                    <i class="fa fa-globe"></i>
-                                    Virginia Polyamory
-                                    <span>Richmond, Virginia</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-envelope"></i>
-                                    <a href="mailto:vapolyamory@gmail.com?Subject=Website%20Contact" target="_top">vapolyamory@gmail.com</a>
-                                </p>
-                            </address>
-                        </div>
-
-                    </div>
-
+        <section id="contactUs" class="container body-section flex-fill my-0 py-5 px-4" data-bs-theme="dark">
+        <div class="initialspace">
+            
+            <!--<strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>-->
+            <form action="https://api.web3forms.com/submit" method="POST" class="card p-5">
+                <h1 class="mb-5">Contact Us</h1>
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="e896db8e-edf4-4b41-8074-b938c530f74f">
+            
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input type="text" name="name" placeholder="Your Name..."  class="row my-2" required>
+                <input type="email" name="email" placeholder="Your Email..." class="row my-2"  required>
+                <div class="input-field row">
+                    <textarea name="message" placeholder="Message..." class="form-control my-2"  required></textarea>
                 </div>
-            </div>
+                
+            
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
+                <!-- Custom Confirmation / Success Page -->
+                <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+            
+                <button type="submit" id="submit" class="row sendbtn btn btn-primary my-2">
+                    Send 
+                    <i class="fa fa-paper-plane fa-lg"></i>
+                </button>
+            
+            </form>    
+                <div class="half">
+                    <address class="contact-details">
+                        <h3>
+                            <img class="img-fluid" src="assets/vastate.png" alt="">
+                        </h3>
+                        <p>
+                            <i class="fa fa-globe"></i>
+                            Virginia Polyamory
+                            <span>Richmond, Virginia</span>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:vapolyamory@gmail.com?Subject=Website%20Contact" target="_top">vapolyamory@gmail.com</a>
+                        </p>
+                    </address>
+                </div>
 
+            </div>
         </section>
 
         <!--================-->
         <!--=====FOOTER=====-->
         <!--================-->
-
         <footer id="footer-section" class="bg-dark border-bottom border-body text-white text-center mt-0 p-2 d-flex align-items-center justify-content-center mb-0">
             <div class="footercontent">
                 <div>
