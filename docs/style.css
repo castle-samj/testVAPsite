@@ -23,7 +23,7 @@ body{
 .navbar{
     transition-duration: .5s;
     }
-  
+     
 .scroll-top .navbar{  
     transition-duration: .5s;
   }
@@ -147,4 +147,14 @@ iframe {
       content: "\F59D";
     }
 
+  }
+
+  hr {
+    margin:auto;
+  }
+  .above-event {
+    width: 90%;
+  }
+  .below-event {
+    width: 50%;
   }
