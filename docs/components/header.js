@@ -13,20 +13,20 @@ class Header extends HTMLElement {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active text-center" aria-current="page" href="#">Da Spot</a>
+                            <li class="nav-item link-home">
+                                <a class="nav-link" href="index.html">Da Spot</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="resources.html">Resources</a>
+                            <li class="nav-item link-resources">
+                                <a class="nav-link" href="resources.html">Resources</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="contribute.html">Contribute</a>
+                            <li class="nav-item link-contribute">
+                                <a class="nav-link" href="contribute.html">Contribute</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="contact.html">Contact Us</a>
+                            <li class="nav-item link-contact">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="events.html">Events</a>
+                            <li class="nav-item link-events">
+                                <a class="nav-link" href="events.html">Events</a>
                             </li>
                         </ul>
                     </div>
